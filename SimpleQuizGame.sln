@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleQuizGame", "SimpleQuizGame.pyproj", "{8DF40253-0D46-460C-8CB7-41F00BEF248C}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SimpleQuiz", "SimpleQuiz.pyproj", "{8DF40253-0D46-460C-8CB7-41F00BEF248C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {505404AA-8A30-41E5-9BC3-D8CC78D7D17F}
+		SolutionGuid = {5B8982A0-18D1-4D51-A15D-13B9CEF040B3}
 	EndGlobalSection
 EndGlobal
