@@ -23,7 +23,7 @@ score = 0
 
 #question 1 response stored in 'answer' and checked if it is correct using 
 #the following 'if' statement
-answer = input("\nWhat does CPU stand for? ").lower()
+answer = input("\n1. What does CPU stand for? ").lower()
 if answer == "central processing unit":
     print("Correct!")
     score += 1
@@ -32,7 +32,7 @@ else:
 
 #question 2 response stored in 'answer' and checked if it is correct using 
 #the following 'if' statement
-answer = input("\nWhat does GPU stand for? ").lower()
+answer = input("\n2. What does GPU stand for? ").lower()
 if answer == "graphics processing unit":
     print("Correct!")
     score += 1
@@ -41,7 +41,7 @@ else:
 
 #question 3 response stored in 'answer' and checked if it is correct using 
 #the following 'if' statement
-answer = input("\nWhat does RAM stand for? ").lower()
+answer = input("\n3. What does RAM stand for? ").lower()
 if answer == "random access memory":
     print("Correct!")    
     score += 1
@@ -50,8 +50,17 @@ else:
 
 #question 4 response stored in 'answer' and checked if it is correct using 
 #the following 'if' statement
-answer = input("\nWhat does PS stand for? ").lower()
+answer = input("\n4. What does PS stand for? ").lower()
 if answer == "power supply":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+#question 5 response stored in 'answer' and checked if it is correct using 
+#the following 'if' statement
+answer = input("\n5. What does ROM stand for? ").lower()
+if answer == "read only memory":
     print("Correct!")
     score += 1
 else:
@@ -60,7 +69,7 @@ else:
 #Note that for all the question's answers are store in the var 'answer'
 
 print("\nYou got " + str(score) + " questions correct!")
-print("\nYou got " + str((score/4) *100) + "%")#calculating and getting the percentage of correct questions 
+print("\nYou got " + str((score/5) *100) + "%")#calculating and getting the percentage of correct questions 
 #str(score) converts the integer variable 'score' to a string
 
 #END.
